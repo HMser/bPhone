@@ -12,7 +12,6 @@ MAINTAINER David Gatti
 #	preparing the environment
 #
 RUN apt-get update
-RUN apt-get upgrade -y
 RUN curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 RUN apt-get install -y nodejs
 
